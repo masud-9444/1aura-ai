@@ -1,0 +1,40 @@
+{
+  "name": "AURA AI — Premium Companion",
+  "short_name": "AURA AI",
+  "description": "Premium AI Avatar English Speaking & Memory Companion",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c0a06",
+  "theme_color": "#c9a84c",
+  "scope": "./",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["education", "productivity", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Start Chat",
+      "url": "./index.html#chat",
+      "description": "Open chat with AURA"
+    },
+    {
+      "name": "Learn English",
+      "url": "./index.html#learn",
+      "description": "English learning mode"
+    }
+  ]
+}
